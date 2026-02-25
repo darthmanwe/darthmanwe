@@ -9,7 +9,7 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/kutlu-mizrak/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:kutlumizrak@gmail.com"><img src="https://img.shields.io/badge/Email-1A73E8?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://darthmanwe.github.io/"><img src="https://img.shields.io/badge/Portfolio-0D47A1?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://darthmanwe.github.io/darthmanwe/"><img src="https://img.shields.io/badge/Portfolio-0D47A1?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfolio" /></a>
 </p>
 
 ## Executive Snapshot
