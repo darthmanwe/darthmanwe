@@ -9,7 +9,7 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/kutlu-mizrak/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:kutlumizrak@gmail.com"><img src="https://img.shields.io/badge/Email-1A73E8?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://darthmanwe.github.io/darthmanwe/"><img src="https://img.shields.io/badge/Portfolio-0D47A1?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://darthmanwe.github.io/"><img src="https://img.shields.io/badge/Portfolio-0D47A1?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfolio" /></a>
 </p>
 
 ## Executive Snapshot
@@ -73,12 +73,16 @@ Prototype MCP-focused project with LEPOR evaluation concepts for AI workflow exp
 - Google Cloud Machine Learning Engineer
 - Azure AI Engineer Associate
 
+<!-- PROFILE_TOGGLE_SHOW_GITHUB_SNAPSHOT=false -->
+<!-- To re-enable later: set toggle to true and uncomment block below. -->
+<!--
 ## GitHub Snapshot
 
 <p align="center">
   <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=darthmanwe&theme=github_dark" alt="GitHub stats" />
   <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=darthmanwe&theme=github_dark" alt="Top languages by repository" />
 </p>
+-->
 
 ---
 
