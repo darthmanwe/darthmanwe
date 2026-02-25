@@ -54,6 +54,11 @@ Representative applied data science and ML implementation samples.
 
 **Repo:** <https://github.com/darthmanwe/Work_Sample>
 
+### 5) Beats_MCP
+Prototype MCP-focused project with LEPOR evaluation concepts for AI workflow experimentation.
+
+**Repo:** <https://github.com/darthmanwe/Beats_MCP>
+
 ## Core Technical Stack
 
 - **LLM / Agentic AI:** LangChain, LangGraph, structured outputs, tool-calling workflows, context engineering
@@ -71,8 +76,8 @@ Representative applied data science and ML implementation samples.
 ## GitHub Snapshot
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=darthmanwe&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0B1220" alt="GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=darthmanwe&layout=compact&theme=tokyonight&hide_border=true&bg_color=0B1220" alt="Top languages" />
+  <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=darthmanwe&theme=github_dark" alt="GitHub stats" />
+  <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=darthmanwe&theme=github_dark" alt="Top languages by repository" />
 </p>
 
 ---
