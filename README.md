@@ -26,7 +26,16 @@ Applied AI leader building production-grade ML and GenAI systems from architectu
 
 ## Featured Projects
 
-### 1) Medical_Doc_Knowledge_Graph_System
+### 1) lorekeeper
+LKGE (Lorekeeper Graph Engine): agentic story generation with Neo4j knowledge graphs, dual RAG retrieval, and contradiction guardrails.
+
+- Read-write graph memory loop with pre-generation constraint checks
+- 20-segment evaluation showing **61% fewer contradictions** versus rolling-context baseline
+- Production-style architecture with FastAPI, Streamlit, LangGraph, ChromaDB, and OpenTelemetry traces
+
+**Repo:** <https://github.com/darthmanwe/lorekeeper>
+
+### 2) Medical_Doc_Knowledge_Graph_System
 Neo4j + FastAPI graph-backed retrieval and grounded RAG for medical documents.
 
 - 5-stage Cypher retrieval pipeline with semantic reranking
@@ -35,7 +44,7 @@ Neo4j + FastAPI graph-backed retrieval and grounded RAG for medical documents.
 
 **Repo:** <https://github.com/darthmanwe/Medical_Doc_Knowledge_Graph_System>
 
-### 2) Training_Distributed_Systems
+### 3) Training_Distributed_Systems
 Fault-tolerant distributed RL platform using Ray + PyTorch PPO.
 
 - Asynchronous rollout collection across heterogeneous workers
@@ -44,28 +53,29 @@ Fault-tolerant distributed RL platform using Ray + PyTorch PPO.
 
 **Repo:** <https://github.com/darthmanwe/Training_Distributed_Systems>
 
-### 3) PDF_to_Presentation
+### 4) PDF_to_Presentation
 Document automation pipeline for converting instructional PDFs into structured, reusable presentation output.
 
 **Repo:** <https://github.com/darthmanwe/PDF_to_Presentation>
 
-### 4) Work_Sample
+### 5) Work_Sample
 Representative applied data science and ML implementation samples.
 
 **Repo:** <https://github.com/darthmanwe/Work_Sample>
 
-### 5) Beats_MCP
+### 6) Beats_MCP
 Prototype MCP-focused project with LEPOR evaluation concepts for AI workflow experimentation.
 
 **Repo:** <https://github.com/darthmanwe/Beats_MCP>
 
 ## Core Technical Stack
 
-- **LLM / Agentic AI:** LangChain, LangGraph, structured outputs, tool-calling workflows, context engineering
-- **ML / NLP / OCR:** PyTorch, Transformers, OpenCV OCR, NER, extraction pipelines, evaluation/regression suites
-- **MLOps / Platform:** Kubernetes, Docker, CI/CD validation environments, OpenTelemetry, Prometheus
-- **Cloud:** AWS, Azure ML Studio, Databricks, GCP, Azure GovCloud
-- **Data & Backend:** Python, FastAPI, Flask, PostgreSQL, Supabase, Neo4j, BigQuery, Redis, Elasticsearch
+- **LLM / Agentic AI:** LangChain, LangGraph orchestration, structured outputs, tool-calling workflows, context engineering, contradiction guard patterns
+- **Graph / Retrieval Systems:** Neo4j 5.x, Cypher query design, Graph RAG + Vector RAG, ChromaDB, causal/event memory modeling
+- **ML / NLP / OCR:** PyTorch, Transformers, OpenCV OCR, NER, extraction pipelines, evaluation and regression harnesses
+- **Backend / App Layer:** Python, FastAPI, Flask, Streamlit, REST API design, Pydantic schema validation
+- **MLOps / Observability:** Kubernetes, Docker, CI/CD validation environments, OpenTelemetry, Prometheus, pytest-based test suites
+- **Cloud / Data Platforms:** AWS, Azure ML Studio, Databricks, GCP, Azure GovCloud, PostgreSQL, Supabase, BigQuery, Redis, Elasticsearch
 
 ## Certifications
 
