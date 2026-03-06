@@ -14,7 +14,7 @@
 
 ## Executive Snapshot
 
-Applied AI leader building production-grade ML and GenAI systems from architecture to delivery. I focus on shipping measurable business impact through reliable LLM workflows, scalable ML infrastructure, and high-quality automation.
+Senior Applied ML and GenAI engineer focused on measurable business outcomes. I build production AI systems that improve reliability, reduce operational risk, and accelerate delivery from prototype to stable release.
 
 ### Impact Highlights
 
@@ -29,9 +29,9 @@ Applied AI leader building production-grade ML and GenAI systems from architectu
 ### 1) lorekeeper
 LKGE (Lorekeeper Graph Engine): agentic story generation with Neo4j knowledge graphs, dual RAG retrieval, and contradiction guardrails.
 
-- Read-write graph memory loop with pre-generation constraint checks
-- 20-segment evaluation showing **61% fewer contradictions** versus rolling-context baseline
-- Production-style architecture with FastAPI, Streamlit, LangGraph, ChromaDB, and OpenTelemetry traces
+- **61% fewer contradictions** in paired evaluation versus rolling-context baseline
+- Graph memory and pre-generation guardrails to preserve narrative consistency at scale
+- Production-ready stack design with FastAPI, Streamlit, LangGraph, ChromaDB, and OpenTelemetry
 
 **Repo:** <https://github.com/darthmanwe/lorekeeper>
 
