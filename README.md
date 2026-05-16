@@ -70,12 +70,33 @@ Prototype MCP-focused project with LEPOR evaluation concepts for AI workflow exp
 
 ## Core Technical Stack
 
-- **LLM / Agentic AI:** LangChain, LangGraph orchestration, structured outputs, tool-calling workflows, context engineering, contradiction guard patterns
-- **Graph / Retrieval Systems:** Neo4j 5.x, Cypher query design, Graph RAG + Vector RAG, ChromaDB, causal/event memory modeling
-- **ML / NLP / OCR:** PyTorch, Transformers, OpenCV OCR, NER, extraction pipelines, evaluation and regression harnesses
-- **Backend / App Layer:** Python, FastAPI, Flask, Streamlit, REST API design, Pydantic schema validation
-- **MLOps / Observability:** Kubernetes, Docker, CI/CD validation environments, OpenTelemetry, Prometheus, pytest-based test suites
-- **Cloud / Data Platforms:** AWS, Azure ML Studio, Databricks, GCP, Azure GovCloud, PostgreSQL, Supabase, BigQuery, Redis, Elasticsearch
+- **Core Languages:** Python, SQL, JavaScript, TypeScript, Java, C#/.NET, C++, Go, COBOL, Bash, PowerShell, Jupyter, YAML, JSON
+
+- **Backend / API Engineering:** FastAPI, Flask, REST APIs, GraphQL, OpenAPI/Swagger, Pydantic, SQLAlchemy, Alembic, Uvicorn, Gunicorn, Celery, Redis/RQ, async Python, microservices, webhooks, API validation, schema validation, retries, rate limiting, idempotent job design
+
+- **LLM / Agentic AI:** OpenAI API, Anthropic Claude API, Gemini API, Hugging Face Transformers, LangChain, LangGraph, LlamaIndex, AutoGen, CrewAI concepts, tool calling, function calling, structured JSON outputs, schema-constrained generation, Pydantic parsers, prompt templates, prompt versioning, JSON repair, model fallback logic, agent state machines
+
+- **RAG / GraphRAG / Knowledge Graphs:** Neo4j, Neo4j Python Driver, Cypher, APOC, Neo4j Graph Data Science concepts, GraphRAG, property graphs, ontology/schema design, entity resolution, entity linking, relationship extraction, graph traversal, k-hop expansion, shortest-path reasoning, vector-seeded graph retrieval, semantic reranking, provenance linking, source citation workflows, Cypher optimization, graph indexes
+
+- **Vector / Search Systems:** Supabase Vector, pgvector, ChromaDB, FAISS, Pinecone concepts, Weaviate concepts, Elasticsearch, OpenSearch, BM25, dense embeddings, sparse retrieval, hybrid search, metadata filtering, document chunking, recursive splitters, semantic chunking, cross-encoder rerankers, sentence-transformers, OpenAI embeddings, retrieval evaluation, top-k/MMR tuning
+
+- **Data Engineering:** PostgreSQL, Supabase, BigQuery, Databricks, Snowflake, Unity Catalog concepts, MongoDB, SQLite, Redis, S3, Azure Blob Storage, GCS concepts, Pandas, NumPy, PySpark concepts, Airflow concepts, dbt concepts, ETL/ELT, batch ingestion, document ingestion, JSON normalization, data validation, deduplication, canonical entity modeling, Great Expectations concepts
+
+- **ML / NLP / Document AI:** PyTorch, JAX, scikit-learn, Hugging Face, Transformers, sentence-transformers, spaCy, NER, entity extraction, relation extraction, text classification, semantic similarity, clustering, OCR post-processing, OpenCV, Tesseract concepts, PDFPlumber, PyMuPDF, pypdf, layout-aware extraction, table extraction, human-in-the-loop QA
+
+- **MLOps / LLMOps / Model Serving:** MLflow, Weights & Biases, DVC concepts, LangSmith concepts, RAGAS concepts, DeepEval concepts, BentoML, ONNX Runtime, TorchServe concepts, SageMaker endpoints, Vertex AI endpoints, FastAPI inference services, Dockerized model serving, Kubernetes-hosted inference, batch/real-time inference, artifact versioning, prompt tracking, model registry concepts, rollback patterns, drift checks, latency/cost/output-quality monitoring
+
+- **Cloud / Infrastructure:** AWS, Azure, GCP, Azure ML Studio, Azure Databricks, Azure GovCloud, Amazon EKS, SageMaker, Vertex AI, AWS Lambda, Azure Functions concepts, Kubernetes, Docker, Docker Compose, Terraform, Azure DevOps, GitHub Actions, VMWare, Linux, IAM/RBAC, VPC/VNet concepts, load balancers, autoscaling, hybrid deployment, on-prem/air-gapped deployment awareness
+
+- **Observability / Reliability / QA:** OpenTelemetry, Prometheus, Grafana, Loki concepts, ELK/Elastic Stack, Datadog concepts, Sentry concepts, CloudWatch, Azure Monitor, structured JSON logs, trace IDs, request IDs, API health checks, Kubernetes readiness/liveness probes, worker health checks, queue depth monitoring, RCA workflows, release safety, rollback planning, SLO/SLA concepts, pytest, unittest, mypy, ruff, black, pre-commit, regression suites, schema tests, data contract tests, golden-set evaluation
+
+- **Security / Governance / LLM Safety:** OAuth2 concepts, JWT, OIDC concepts, Azure Key Vault, AWS Secrets Manager, KMS concepts, TLS/HTTPS, encryption-in-transit/at-rest, audit logging, data lineage, source provenance, reproducible pipelines, deterministic validation, explainability tooling, model cards, Fortify SCA, Snyk concepts, Trivy concepts, zero-trust concepts, GovCloud constraints, OWASP LLM Top 10, prompt injection mitigation, retrieval permission filters, PII-aware processing, model supply-chain risk awareness, data poisoning awareness, model DoS/cost controls, NeMo Guardrails concepts, Guardrails AI concepts
+
+- **L3 Technical Support / ML Escalation:** L3 escalation ownership, complex production triage, customer issue reproduction, severity classification, SLA/SLO tracking, incident timelines, RCA docs, 8D reporting, support runbooks, KB ownership, ticket QA, junior support mentoring, customer-facing technical summaries, ML-team escalation handoffs, engineering defect packages, Jira, GitHub Issues, Azure DevOps Boards, Confluence, Notion, Slack, Microsoft Teams, Postman, Insomnia, Swagger/OpenAPI, cURL, SQL debugging, PostgreSQL inspection, Neo4j Browser, Cypher debugging, APOC checks, Elasticsearch/OpenSearch debugging, Supabase dashboard, BigQuery console, Databricks notebooks, Docker logs, Kubernetes logs, kubectl, RAG/GraphRAG validation, hallucination investigation, retrieval failure debugging, ingestion failure triage, schema/RBAC debugging
+
+- **Analytics / Delivery:** PowerBI, SQL analytics, BigQuery analytics, dashboarding, KPI design, operational reporting, stakeholder-facing metrics, root cause reporting, OSINT pipeline automation, Git, GitHub, Trello, Jira, Notion, Confluence, Markdown docs, Mermaid diagrams, technical design docs, architecture notes, release notes
+
+- **Certifications:** AWS Certified Machine Learning Specialty, Google Cloud Professional Machine Learning Engineer, Microsoft Azure AI Engineer Associate
 
 ## Certifications
 
