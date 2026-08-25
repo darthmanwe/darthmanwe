@@ -58,15 +58,26 @@ Document automation pipeline for converting instructional PDFs into structured, 
 
 **Repo:** <https://github.com/darthmanwe/PDF_to_Presentation>
 
-### 5) Work_Sample
-Representative applied data science and ML implementation samples.
+### 5) Hoops_Lab
+Cross-league basketball translation modelling for EuroLeague, NBA, and G League production.
 
-**Repo:** <https://github.com/darthmanwe/Work_Sample>
+- Built on 414 real transfers and 22,297 player-seasons across three leagues
+- Usage-rate model reaches 0.0332 out-of-fold MAE and beats the league-mean baseline by 22.4%
+- Publishes uncertainty, selection limits, and failed true-shooting results instead of hiding weak metrics
+- Cloudflare Workers + D1 serving path with 374 offline tests and no-network reproducibility
 
-### 6) Beats_MCP
-Prototype MCP-focused project with LEPOR evaluation concepts for AI workflow experimentation.
+**Repo:** <https://github.com/darthmanwe/Hoops_Lab>
 
-**Repo:** <https://github.com/darthmanwe/Beats_MCP>
+### 6) LineupIQ
+NBA lineup fit and shot-selection forecaster with explicit support thresholds.
+
+- Reconstructs three seasons of play-by-play into 698,314 shots and 49,827 five-man offensive lineups
+- Serves a closed-form model on Cloudflare Workers with Python-to-TypeScript parity proven to 1e-9
+- Uses a 422 INSUFFICIENT_SUPPORT refusal contract when a lineup lacks enough evidence
+- Ships 16 live endpoints with 341 tests across Python and workerd-based TypeScript suites
+
+**Repo:** <https://github.com/darthmanwe/LineupIQ>
+**Live:** <https://lineupiq-api-production.kutlumizrak.workers.dev>
 
 ## Core Technical Stack
 
